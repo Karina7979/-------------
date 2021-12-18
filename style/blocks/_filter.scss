@@ -1,0 +1,31 @@
+.filter {
+    height: 116px;
+    margin: 0 auto;
+    width: $desktop-width;
+}
+
+.filter-wrap {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 51px;
+
+}
+
+.dropdown-item {
+   text-decoration: none;
+   font-size: 14px;
+   line-height: 17px;
+   color: #6F6E6E;
+   padding-right: 28px;
+}
+
+.filter-dropdown {
+    color: #000000;
+    padding-right: 315px;
+    margin-left: -40px;
+}
+
+
+.vector {
+    padding-left: 10px;
+}

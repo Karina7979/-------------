@@ -1,0 +1,165 @@
+.description-card {
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 99px;
+    margin-top: -50px;
+    background-color: #fff;
+
+    @media (max-width: $tablet-breakpoint) {
+        width: 735px;
+        padding: $site-padding;
+      }
+
+    @media (max-width: 767px) {
+        width: $mobile-width;
+        padding: $site-padding;
+        margin-bottom: 35px;
+    }
+
+}
+
+.description {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #EAEAEA;
+
+}
+
+.pink-text {
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding-top: 64px;
+    padding-bottom: 27px;
+    // border-bottom: 3px solid #F16D7F;
+    // width: 63px;
+}
+
+.description-title {
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    padding-bottom: 48px;
+}
+
+.description-text {
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    padding-bottom: 32px;
+    padding-left: 292px;
+    padding-right: 292px;
+
+    @media (max-width: $tablet-breakpoint) {
+        padding-left: 105px;
+        padding-right: 105px;
+      }
+    
+    @media (max-width: 767px) {
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+
+}
+
+.price-description {
+    padding-bottom: 65px;
+    position: relative;
+    border-bottom: 1px solid #EAEAEA;
+    width: 641px;
+
+    @media (max-width: 767px) {
+         width: 174px;
+    }
+}
+
+.choose {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media (max-width: 767px) {
+    margin-left: 25px;
+    }
+}
+
+.choose-color {
+    padding-right: 15px;
+    list-style-type: none;
+    padding-bottom: 48px;
+    color: #6F6E6E;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+
+
+    @media (max-width: 767px) {
+        font-size: 10px;
+        line-height: 12px; 
+    }
+}
+
+.choose-color svg {
+    fill: #6F6E6E;
+    margin-left: 6px;
+}
+
+
+
+.button-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 64px;
+}
+  
+.btn-add-to-card {
+    outline: 1px solid #FF6A6A;
+    padding: 14px 23px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    background-color: transparent;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-add-to-card svg {
+    fill:#F16D7F;
+    margin-right: 22px;
+    vertical-align: middle;
+}
+  
+.btn-add-to-card:hover {
+    background-color: #F16D7F;
+    color:#fff;
+}
+
+.btn-add-to-card:hover svg {
+    background-color: #F16D7F;
+    fill:#fff;
+}
+
+
+
+
+
+
+
+
+
+

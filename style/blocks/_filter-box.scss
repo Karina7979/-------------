@@ -1,0 +1,156 @@
+.filter-box {
+    height: 116px;
+    margin: 0 auto;
+    width: 1140px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    @media (max-width: $tablet-breakpoint) {
+      width: 735px;
+      padding: $site-padding;
+      height: 65px;
+    }
+
+    @media (max-width: 767px) {
+      width: $mobile-width;
+      padding: $site-padding;
+  }
+}
+  
+.filter-title {
+    color: #000000;
+    padding-right: 299px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    padding: 13px 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.filter-title svg {
+  fill:#000000;
+  margin-left: 11px;
+}
+  
+.filter-title::-webkit-details-marker {
+      display: none;
+}
+  
+.filter {
+    width: 360px;
+    position: relative;
+}
+  
+.filter[open] {
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+  
+.filter[open] .filter-title {
+    color: #F16D7F;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 1001;
+}
+
+.filter[open] .filter-title svg {
+  fill: #F16D7F;
+}
+
+.filter-drop {
+    width: 100%;
+    box-sizing:border-box;
+    position: absolute;
+    z-index: 1000;
+    padding: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  }
+  
+.subfilter {
+    margin-bottom: 18px;
+  }
+  
+.subfilter-list {
+    list-style: none;
+    padding-left: 15px;
+  }
+  
+.subfilter-item {
+    margin-bottom: 11px;
+  }
+  
+.subfilter-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    font-family: inherit;
+}
+  
+.subfilter-title {
+    display: block;
+    padding: 11px;
+    border-left: 5px solid #F16D7F;
+    border-bottom: 1px solid #EBEBEB;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+.subfilter-title::-webkit-details-marker {display: none;}
+.subfilter[open] .subfilter-title {
+    color: #F16D7F;
+}
+   
+.dropdown {
+    display:flex;
+    position: relative;
+}
+
+.dropdown-item {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-left: 28px;
+    display: block;
+    cursor: pointer;
+
+    @media (max-width: 767px) {
+      font-size: 12px;
+      line-height: 14px;
+    }
+}
+.dropdown-item::-webkit-details-marker {display: none;}
+  
+.checkbox-size {
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    padding-right: 30px;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+  
+.style-checkbox {
+    padding-bottom: 6px;
+    color: #6F6E6E;
+    font-size: 14px;
+    line-height: 16px;
+}
+  
+.vector {
+    padding-left: 10px;
+}

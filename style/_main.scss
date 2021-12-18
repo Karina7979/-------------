@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.wrap {
+    width: $desktop-width;
+    margin: 0 auto;
+    // outline: 1px solid red;
+    
+    //tablet version
+    @media (max-width: $tablet-breakpoint) {
+      width: 735px;
+      padding: $site-padding;
+    }
+
+    //mobile vesion
+    @media (max-width: 767px) {
+        width: $mobile-width;
+        padding: $site-padding;
+    }
+}
