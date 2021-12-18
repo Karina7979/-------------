@@ -1,0 +1,44 @@
+
+.cart-page {
+    margin: auto;
+    width: $desktop-width;
+    height: 998px;
+    padding: 96px 230px 128px 230px;
+}
+
+.cart-page-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.cards-products {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-1 {
+    width: 652px;
+    height: 360px;
+    border: solid 1px #E5E5E5;
+    margin-bottom: 40px;
+}
+
+.card-2 {
+    margin-bottom: 32px;
+}
+
+.shipping-adress {
+    padding-left: 128px;
+}
+
+.ship-adress {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-input {
+    border: solid 1px #A4A4A4;
+    padding: 13px 17px 16px 17px;
+    margin-bottom: 20px;
+}

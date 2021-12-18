@@ -1,0 +1,6 @@
+// переменные
+$desktop-width: 1140px;
+$main-color:#F16D7F;
+$site-padding: 16px;
+$tablet-breakpoint: $desktop-width + $site-padding * 2;
+$mobile-width: 375px - $site-padding * 2;

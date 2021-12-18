@@ -1,0 +1,99 @@
+.feedback {
+    /* background: rgba(244, 244, 244, 0.7); */
+    // margin: auto;
+    height: 448px;
+    background-image: url("../img/images/back_feedback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: $tablet-breakpoint) {
+        height: 693px;  
+    }
+
+}
+
+.feedback_wrap {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    @media (max-width: $tablet-breakpoint) {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+.quote {
+    padding-top: 86px;
+    text-align: center;
+    padding-left: 80px;
+
+    @media (max-width: $tablet-breakpoint) {
+      padding-left: 0;
+    }
+}
+
+
+.quote_text {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.subscribe {
+    padding-top: 130px;
+    text-align: center;
+    // padding-right: 30px;
+
+    @media (max-width: $tablet-breakpoint) {
+        padding-top: 48px;
+      }
+}
+
+.subscribe_text {
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.subscribe-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.email-form {
+   padding: 18px 23px;
+   background: #E1E1E1;
+   border: none;
+   border-radius: 23px 0 0 23px;
+   color: #5D5D5D;
+   transition: 0.3s;
+}
+
+.email-form:hover {
+   background-color: #F4F4F4;
+}
+
+.button-form {
+    padding: 18px 23px;
+    background: $main-color;
+    border: none;
+    color:#FFFFFF;
+    border-radius: 0 23px 23px 0;
+    transition: 0.3s;
+}
+
+.button-form:hover {
+    background-color: rgb(241, 58, 83);
+}

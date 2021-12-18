@@ -1,0 +1,51 @@
+// переменные
+@import "_var.scss";
+// центровщик
+@import "_main.scss";
+
+// блок header
+@import "blocks/_header.scss";
+
+//блок main nav 
+@import "blocks/main-nav";
+
+// блок промо
+@import "blocks/_promo.scss";
+
+// блок тайтл заголовок
+@import "blocks/_page-title.scss";
+
+//блок корзина товаров
+@import "blocks/_cart.scss";
+
+// блок слайдер background-wallpaper
+@import "blocks/_slider.scss";
+
+// блок описание товара карточка
+@import "blocks/_description-card.scss";
+
+// блок предложения оффер
+@import "blocks/_offer.scss";
+
+// блок фильтры
+// @import "blocks/_filter.scss";
+@import "blocks/filter-box";
+
+// блок все продукты каталог
+@import "blocks/_all-products-catalog.scss";
+
+//  блок продукты главная страница
+@import "blocks/_products.scss";
+
+// пагинация
+@import "blocks/_pagination.scss";
+
+// блок преимущества
+@import "blocks/_features.scss";
+
+// блок feedback
+@import "blocks/_feedback.scss";
+
+// блок футер
+@import "blocks/_footer.scss";
+    
