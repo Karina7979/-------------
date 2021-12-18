@@ -1,15 +1,16 @@
 
 .cart-page {
-    margin: auto;
-    width: $desktop-width;
-    height: 998px;
-    padding: 96px 230px 128px 230px;
+     margin: auto;
+     width: $desktop-width;
+     height: 998px;
+     padding: 96px 230px 0 230px;
 }
 
 .cart-page-wrap {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    // flex-wrap: wrap;
 }
 
 .cards-products {
@@ -19,17 +20,69 @@
 
 .card-1 {
     width: 652px;
-    height: 360px;
+    height: 303px;
     border: solid 1px #E5E5E5;
     margin-bottom: 40px;
 }
 
+.card-1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
 .card-2 {
-    margin-bottom: 32px;
+    margin-bottom: 72px;
+}
+
+.small-discrip {
+    margin-right: 80px;
+    font-size: 22px;
+}
+
+// .description-of-product {
+// }
+
+.title-card {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0;
+    padding-bottom: 42px;
+    padding-top: 22px;
+}
+
+
+.product-desc {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.color-price {
+    color: #EF5B70;
+}
+
+.color-meaning {
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+
+.btns-clear-continue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-shop-cart {
+    padding: 16px 40px 16px 40px;
+    border: 1px  solid #A4A4A4;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
 }
 
 .shipping-adress {
-    padding-left: 128px;
+     padding-left: 128px;
 }
 
 .ship-adress {
@@ -37,8 +90,53 @@
     flex-direction: column;
 }
 
+.shipping-title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 .info-input {
     border: solid 1px #A4A4A4;
     padding: 13px 17px 16px 17px;
     margin-bottom: 20px;
+    width: 358px;
+}
+
+.post-quote {
+    padding: 9px 14px 10px 13px;
+    width: 100px;
+    border: 1px solid #A4A4A4;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    background-color: #fff;
+    margin-bottom: 57px;
+}
+
+.total {
+    width: 360px;
+    height: 214px;
+    border: 1px solid #F5F3F3;
+    background-color: #F5F3F3;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 39px;
+    
+}
+
+.total-price {
+    list-style: none;
+    border-bottom: 1px solid #E2E2E2;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.proceed-btn {
+    padding: 15px 41px 14px 43px;
+    color: #fff;
+    background-color: #EF5B70;
+    border: 1px solid #EF5B70;
 }
